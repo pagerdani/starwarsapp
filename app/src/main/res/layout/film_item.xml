@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/textViewTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#FFFFFF"
+        android:background="#00FAEAB1"
+        android:textSize="25sp"
+        android:layout_marginStart="20dp"
+        android:text="Title"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginBottom="10dp"
+        tools:ignore="HardcodedText"/>
+
+    <TextView
+        android:id="@+id/textViewEpisodeIdLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#03A9F4"
+        android:textSize="20sp"
+        android:text="Episode ID:"
+        android:textStyle="bold"
+        android:layout_below="@+id/textViewTitle"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="12dp"
+        tools:ignore="HardcodedText"/>
+
+    <TextView
+        android:id="@+id/textViewEpisodeId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#03A9F4"
+        android:textSize="20sp"
+        android:text="Episode ID"
+        android:layout_below="@+id/textViewEpisodeIdLabel"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="8dp"
+        tools:ignore="HardcodedText"/>
+
+    <TextView
+        android:id="@+id/textViewOpeningCrawlLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#03A9F4"
+        android:textSize="20sp"
+        android:text="Opening Crawl:"
+        android:textStyle="bold"
+        android:layout_below="@+id/textViewEpisodeId"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="10dp"
+        tools:ignore="HardcodedText"/>
+
+    <TextView
+        android:id="@+id/textViewOpeningCrawl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#03A9F4"
+        android:textSize="20sp"
+        android:text="Opening Crawl"
+        android:layout_below="@+id/textViewOpeningCrawlLabel"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="8dp"
+        tools:ignore="HardcodedText"/>
+
+    <TextView
+        android:id="@+id/textViewDirectorLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#03A9F4"
+        android:textSize="20sp"
+        android:text="Director:"
+        android:textStyle="bold"
+        android:layout_below="@+id/textViewOpeningCrawl"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="10dp"
+        tools:ignore="HardcodedText"/>
+
+    <TextView
+        android:id="@+id/textViewDirector"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textColor="#03A9F4"
+        android:text="Director"
+        android:layout_below="@+id/textViewDirectorLabel"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="8dp"
+        tools:ignore="HardcodedText"/>
+
+    <TextView
+        android:id="@+id/textViewProducerLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#03A9F4"
+        android:textSize="20sp"
+        android:text="Producer:"
+        android:textStyle="bold"
+        android:layout_below="@+id/textViewDirector"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="10dp"
+        tools:ignore="HardcodedText"/>
+
+    <TextView
+        android:id="@+id/textViewProducer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textColor="#03A9F4"
+        android:text="Producer"
+        android:layout_below="@+id/textViewProducerLabel"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="8dp"
+        tools:ignore="HardcodedText"/>
+
+    <TextView
+        android:id="@+id/textViewReleaseDateLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#03A9F4"
+        android:textSize="20sp"
+        android:text="Release Date:"
+        android:textStyle="bold"
+        android:layout_below="@+id/textViewProducer"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="10dp"
+        tools:ignore="HardcodedText"/>
+
+    <TextView
+        android:id="@+id/textViewReleaseDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textColor="#03A9F4"
+        android:text="Release Date"
+        android:layout_below="@+id/textViewReleaseDateLabel"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="20dp"
+        tools:ignore="HardcodedText" />
+
+</RelativeLayout>

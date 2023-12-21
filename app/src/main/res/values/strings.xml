@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Star Wars</string>
+    <string name="OpenDrawer">Open navigation drawer</string>
+    <string name="CloseDrawer">Close navigation drawer</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="header_image">Header image</string>
+    <string name="project">Project</string>
+    <string name="peoples">Peoples</string>
+    <string name="films">Films</string>
+    <string name="home">Home</string>
+    <string name="title_of_movie">Title of movie</string>
+    <string name="search">Search</string>
+    <string name="clear">Clear</string>
+    <string name="background_image">background image</string>
+    <string name="person_s_name">Person\'s name</string>
+    <string name="name">Name</string>
+    <string name="birth_year">Birth Year:</string>
+    <string name="birth_year2">Birth Year</string>
+    <string name="gender">Gender:</string>
+    <string name="gender2">Gender</string>
+    <string name="hair_color">Hair Color:</string>
+    <string name="gender3">Gender</string>
+    <string name="eye_color">Eye Color:</string>
+    <string name="eye_color2">Eye Color</string>
+    <string name="height">Height:</string>
+    <string name="height2">Height</string>
+    <string name="mass">Mass:</string>
+    <string name="mass2">Mass</string>
+    <string name="skin_color">Skin Color:</string>
+    <string name="skin_color2">Skin Color</string>
+</resources>

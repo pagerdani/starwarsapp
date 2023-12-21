@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="header_image">Header image</string>
+    <string name="project">Project</string>
+    <string name="peoples">Peoples</string>
+    <string name="films">Films</string>
+    <string name="home">Home</string>
+</resources>
